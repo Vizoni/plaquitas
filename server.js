@@ -6,13 +6,6 @@ const path = require("path");
 const { resolve } = require("path");
 const app = express();
 
-// // app.use("/", express.static(path.resolve(__dirname, "./dist")));
-// app.use("/", express.static(path.join(__dirname, "dist")));
-
-// app.listen(process.env.PORT || 3000, (err) => {
-// 	err ? console.log("error", err) : console.log("Funcionando...");
-// });
-
 app.use("/", express.static(resolve(__dirname, "./dist")));
 
 app.get("/*", (req, res) => {
