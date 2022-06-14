@@ -7,7 +7,7 @@ const app = express();
 
 app.use("/", express.static(resolve(__dirname, "./dist")));
 app.get("*", function (req, res) {
-	res.sendFile(resolve(__dirname, "./dist").join(__dirname, "/index.html"));
+	res.sendFile(resolve(__dirname, "./dist").join("/index.html"));
 });
 
 app.listen(process.env.PORT || 3000, (err) => {
