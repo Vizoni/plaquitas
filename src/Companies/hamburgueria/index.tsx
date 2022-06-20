@@ -7,9 +7,9 @@ function PadariaExemplo() {
 	// const image1: any = lazy(() => import("./companies/hamburgueria/1.png"));
 	// const image2: any = lazy(() => import("./companies/hamburgueria/2.png"));
 	// const image3: any = lazy(() => import("./companies/hamburgueria/3.png"));
-	const image1: any = "./companies/hamburgueria/1.png";
-	const image2: any = "./companies/hamburgueria/2.png";
-	const image3: any = "./companies/hamburgueria/3.png";
+	const image1: any = "./companies/hamburgueria/1.webp";
+	const image2: any = "./companies/hamburgueria/2.webp";
+	const image3: any = "./companies/hamburgueria/3.webp";
 
 	return (
 		<>
