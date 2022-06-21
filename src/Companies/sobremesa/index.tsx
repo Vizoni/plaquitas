@@ -3,10 +3,10 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-function HamburgueriaExemplo() {
-	const image1: any = "./companies/hamburgueria/1.webp";
-	const image2: any = "./companies/hamburgueria/2.webp";
-	const image3: any = "./companies/hamburgueria/3.webp";
+function Sobremesa() {
+	const image1: any = "./companies/sobremesa/1.webp";
+	const image2: any = "./companies/sobremesa/2.webp";
+	const image3: any = "./companies/sobremesa/3.webp";
 
 	const SkeletonComponent = (
 		<Skeleton count={1} style={{ margin: "0.5rem" }} height={"30vh"} />
@@ -39,4 +39,4 @@ function HamburgueriaExemplo() {
 	);
 }
 
-export default HamburgueriaExemplo;
+export default Sobremesa;
